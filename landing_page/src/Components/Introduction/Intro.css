@@ -1,0 +1,21 @@
+/* .row{
+    display: grid;
+    grid-template-columns: 750px 500px;
+    grid-template-rows: 300px 300px;
+} */
+
+
+.row{
+    display: grid;
+    grid-template-areas: "img text"
+                          "img text";
+}
+
+.left{
+
+}
+
+.right{
+    grid-area: text;
+    margin-top: 146px;
+}

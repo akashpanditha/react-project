@@ -1,0 +1,48 @@
+.h2-value{
+    display: flex;
+    justify-content: center;
+}
+
+.p-value{
+    display: flex;
+    justify-content: center;
+}
+
+.value-end{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+                           
+}
+#id1{
+    
+}
+.img1val{
+    margin-left: 128px;
+    border-radius: 102px;
+background: #E9EBEF;
+box-shadow: -10px -10px 20px 0px #FFF, 10px 10px 20px 0px #C4C9D4;
+width: 137px;
+height: 137px;
+flex-shrink: 0;
+}
+.valueimg{
+    margin-left: 27px;
+    padding-top: 23px;
+}
+
+
+.img2val{
+    border-radius: 102px;
+background: #E9EBEF;
+box-shadow: -10px -10px 20px 0px #FFF, 10px 10px 20px 0px #C4C9D4;
+width: 137px;
+height: 137px;
+flex-shrink: 0;
+}
+.val-text{
+    margin: 0px 30px 0px 30px;
+}
+
+.h2-text{
+    margin-left: 50px;
+}

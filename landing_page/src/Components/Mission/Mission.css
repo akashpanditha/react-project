@@ -1,0 +1,9 @@
+.container{
+    display: grid;
+    grid-template-areas: "text img";
+}
+
+.left-mission{
+    margin-top: 170px;
+    margin-left: 25px;
+}

@@ -1,0 +1,41 @@
+.container-footer{
+    background-image: url("image/footerpng.png");
+    /* background: no-repeat; */
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 1.2fr;
+    grid-template-rows: 1fr 0.2fr;
+    grid-template-areas: "footer1 footer2 footer3"
+                          "footer4 footer4 footer4"  ;
+
+    color: white;
+    
+}
+#footer1{
+    grid-area: footer1;
+}
+#footer2{
+    grid-area: footer2;
+}
+#footer3{
+    grid-area: footer3;
+}
+#footer4{
+    grid-area: footer4;
+}
+.head-office{
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.solution{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.copyright{
+    text-align: center;
+}
+
+.footer-img{
+    height: 245px;
+    margin-top: -97px;
+}

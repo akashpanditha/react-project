@@ -1,0 +1,14 @@
+.client{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 98px;
+}
+
+.img-client{
+    width: 247px;
+height: 188px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #E9EBEF;
+box-shadow: 10px 10px 20px 0px #C4C9D4;
+}

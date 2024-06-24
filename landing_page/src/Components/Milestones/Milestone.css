@@ -1,0 +1,13 @@
+.milestone{
+    display: grid;
+    grid-template-areas: "img text";
+}
+.right-milestone{
+    grid-area: text;
+    margin-top: 90px;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
